@@ -1,0 +1,6 @@
+[submodule "pack/init/start/fzf"]
+	path = pack/init/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "pack/init/start/ag"]
+	path = pack/init/start/ag
+	url = https://github.com/rking/ag.vim.git
