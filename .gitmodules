@@ -4,3 +4,9 @@
 [submodule "pack/init/start/ag"]
 	path = pack/init/start/ag
 	url = https://github.com/rking/ag.vim.git
+[submodule "pack/init/start/ale"]
+	path = pack/init/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/init/start/vim-gitgutter"]
+	path = pack/init/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
