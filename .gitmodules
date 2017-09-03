@@ -16,3 +16,6 @@
 [submodule "pack/init/start/SimpleAutoComplPop"]
 	path = pack/init/start/SimpleAutoComplPop
 	url = https://github.com/roxma/SimpleAutoComplPop.git
+[submodule "pack/init/start/vim-go"]
+	path = pack/init/start/vim-go
+	url = https://github.com/fatih/vim-go.git
