@@ -19,3 +19,12 @@
 [submodule "pack/init/start/vim-go"]
 	path = pack/init/start/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "pack/init/start/vim-snippets"]
+	path = pack/init/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/init/start/tlib_vim"]
+	path = pack/init/start/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "pack/init/start/vim-addon-mw-utils"]
+	path = pack/init/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
