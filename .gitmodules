@@ -28,3 +28,6 @@
 [submodule "pack/init/start/vim-addon-mw-utils"]
 	path = pack/init/start/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "pack/init/start/vim-markdown"]
+	path = pack/init/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
