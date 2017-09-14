@@ -31,3 +31,9 @@
 [submodule "pack/init/start/vim-markdown"]
 	path = pack/init/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "pack/init/start/python-vim-instant-markdown"]
+	path = pack/init/start/python-vim-instant-markdown
+	url = https://github.com/isnowfy/python-vim-instant-markdown.git
+[submodule "pack/init/start/previm"]
+	path = pack/init/start/previm
+	url = https://github.com/kannokanno/previm.git
