@@ -37,3 +37,6 @@
 [submodule "pack/init/start/previm"]
 	path = pack/init/start/previm
 	url = https://github.com/kannokanno/previm.git
+[submodule "pack/init/start/auto-pairs"]
+	path = pack/init/start/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
