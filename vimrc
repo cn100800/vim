@@ -14,5 +14,8 @@ filetype plugin indent on
 let g:neocomplcache_enable_at_startup = 1
 set nofoldenable
 set statusline=%f
-set statusline+=%l
+set statusline+=%=
+set statusline+=%l\ \ \ \ %c
 set laststatus=2
+highlight StatusLine guifg=SlateBlue guibg=Yellow 
+highlight StatusLineNC guifg=Gray guibg=White 
