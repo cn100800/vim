@@ -52,3 +52,6 @@
 [submodule "pack/init/start/nerdtree"]
 	path = pack/init/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "pack/init/start/php"]
+	path = pack/init/start/php
+	url = git@github.com:StanAngeloff/php.vim.git
