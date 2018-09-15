@@ -19,3 +19,8 @@ set statusline+=%l\ \ \ \ %c
 set laststatus=2
 highlight StatusLine guifg=SlateBlue guibg=Yellow 
 highlight StatusLineNC guifg=Gray guibg=White 
+
+
+set encoding=utf-8
+set fileencodings=utf-8,gbk,default,latin1
+

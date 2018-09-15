@@ -46,3 +46,9 @@
 [submodule "pack/init/start/vim-devicons"]
 	path = pack/init/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/init/start/nerdtree-git-plugin"]
+	path = pack/init/start/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "pack/init/start/nerdtree"]
+	path = pack/init/start/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
