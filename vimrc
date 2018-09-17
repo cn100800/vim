@@ -29,6 +29,7 @@ highlight StatusLine guifg=SlateBlue guibg=Yellow
 highlight StatusLineNC guifg=Gray guibg=White 
 
 autocmd VimEnter * NERDTree
+let autosave=1
 let g:neocomplcache_enable_at_startup = 1
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
@@ -38,3 +39,21 @@ let g:NERDTreeWinSize=22
 let g:NERDTreeAutoCenter=1
 let tagbar_left=1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let g:NERDTreeShowIgnoredStatus = 0
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
+
+let g:gitgutter_terminal_reports_focus=0
+autocmd BufWritePost * GitGutter
+let g:RootIgnoreAgignore = 1
+let g:RootIgnoreUseHome = 1
