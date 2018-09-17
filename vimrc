@@ -4,23 +4,37 @@ set numberwidth=6
 set autoindent
 set softtabstop=4
 set shiftwidth=4
-inoremap ;;  <ESC>
 set nocompatible
+set nofoldenable
+set statusline+=%=
+set statusline=%f
+set encoding=utf-8
+set statusline+=%l\ \ \ \ %c
+set laststatus=2
+set fileencodings=utf-8,gbk,default,latin1
+set mouse=a
+set smartindent
+set autoindent
+
+inoremap ;; <ESC>
 inoremap <tab> <C-X><C-O>
-syntax on
+
 filetype on
 filetype plugin on
 filetype plugin indent on
-let g:neocomplcache_enable_at_startup = 1
-set nofoldenable
-set statusline=%f
-set statusline+=%=
-set statusline+=%l\ \ \ \ %c
-set laststatus=2
+
+syntax on
+
 highlight StatusLine guifg=SlateBlue guibg=Yellow 
 highlight StatusLineNC guifg=Gray guibg=White 
 
-
-set encoding=utf-8
-set fileencodings=utf-8,gbk,default,latin1
-
+autocmd VimEnter * NERDTree
+let g:neocomplcache_enable_at_startup = 1
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
+let g:NERDTreeWinPos="left"
+let g:NERDTreeSize=22
+let g:NERDTreeWinSize=22
+let g:NERDTreeAutoCenter=1
+let tagbar_left=1
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
