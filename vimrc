@@ -55,5 +55,5 @@ let g:NERDTreeIndicatorMapCustom = {
 
 let g:gitgutter_terminal_reports_focus=0
 autocmd BufWritePost * GitGutter
-let g:RootIgnoreAgignore = 1
+let g:RootIgnoreAgignore = 0
 let g:RootIgnoreUseHome = 1
