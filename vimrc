@@ -57,3 +57,5 @@ let g:gitgutter_terminal_reports_focus=0
 autocmd BufWritePost * GitGutter
 let g:RootIgnoreAgignore = 0
 let g:RootIgnoreUseHome = 1
+let g:minimap_highlight='Visual'
+let g:mkdp_auto_start = 1

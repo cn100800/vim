@@ -58,3 +58,12 @@
 [submodule "pack/init/start/ctrlp"]
 	path = pack/init/start/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule "pack/init/start/vim-minimap"]
+	path = pack/init/start/vim-minimap
+	url = git@github.com:severin-lemaignan/vim-minimap.git
+[submodule "pack/init/start/vim-sensible"]
+	path = pack/init/start/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "pack/init/start/markdown-preview"]
+	path = pack/init/start/markdown-preview
+	url = git@github.com:iamcco/markdown-preview.vim.git
