@@ -2,6 +2,7 @@ set backspace=indent,eol,start
 set number
 set numberwidth=6
 set autoindent
+set smartindent
 set softtabstop=4
 set shiftwidth=4
 set nocompatible
@@ -13,8 +14,21 @@ set statusline+=%l\ \ \ \ %c
 set laststatus=2
 set fileencodings=utf-8,gbk,default,latin1
 set mouse=a
-set smartindent
 set autoindent
+set tabstop=4
+set expandtab
+set textwidth=80
+set wrapmargin=2
+set showmatch
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set scrolloff=5
+set spell spelllang=en_us
+set nobackup
+set noswapfile
+set undofile
 
 inoremap ;; <ESC>
 inoremap <tab> <C-X><C-O>
