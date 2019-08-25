@@ -6,7 +6,6 @@ set smartindent
 set softtabstop=4
 set shiftwidth=4
 set nocompatible
-set nofoldenable
 set statusline+=%=
 set statusline=%f
 set encoding=utf-8
