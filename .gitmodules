@@ -67,3 +67,6 @@
 [submodule "pack/init/start/markdown-preview"]
 	path = pack/init/start/markdown-preview
 	url = git@github.com:iamcco/markdown-preview.vim.git
+[submodule "pack/init/start/gocode"]
+	path = pack/init/start/gocode
+	url = git@github.com:nsf/gocode.git
